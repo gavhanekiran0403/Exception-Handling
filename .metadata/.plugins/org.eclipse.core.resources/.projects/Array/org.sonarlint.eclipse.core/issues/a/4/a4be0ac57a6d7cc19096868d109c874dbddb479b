@@ -1,8 +1,0 @@
-
-d	java:S106"9Replace this use of System.out or System.err by a logger.(ğòû„H¡RMAJORZ
-CODE_SMELL
-d	java:S106"9Replace this use of System.out or System.err by a logger.(Ãî‡H¢RMAJORZ
-CODE_SMELL
-R
-java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙH£RMINORZ
-CODE_SMELL

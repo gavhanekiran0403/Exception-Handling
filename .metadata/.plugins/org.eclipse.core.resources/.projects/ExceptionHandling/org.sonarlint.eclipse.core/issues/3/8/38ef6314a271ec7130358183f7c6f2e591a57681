@@ -1,9 +1,0 @@
-
-v	java:S112
-"FDefine and throw a dedicated exception instead of using a generic one.(ö—ý¨þÿÿÿÿHÜRMAJORZ
-CODE_SMELL
-i	java:S106"9Replace this use of System.out or System.err by a logger.(œÄ×øþÿÿÿÿHÞRMAJORZ
-CODE_SMELL
-o
-java:S1610">Convert the abstract class "MathOperation4" into an interface.(±‘¸ÂúÿÿÿÿHÝRMINORZ
-CODE_SMELL

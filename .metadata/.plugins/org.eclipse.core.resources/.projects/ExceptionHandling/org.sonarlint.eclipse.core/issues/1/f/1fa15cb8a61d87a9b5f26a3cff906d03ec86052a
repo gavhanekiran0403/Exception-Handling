@@ -1,9 +1,0 @@
-
-i	java:S106"9Replace this use of System.out or System.err by a logger.(œÄ×øþÿÿÿÿHÆRMAJORZ
-CODE_SMELL
-i
-java:S1610"=Convert the abstract class "MathOperation" into an interface.(Û¯äÑHÇRMINORZ
-CODE_SMELL
-q	java:S112
-"FDefine and throw a dedicated exception instead of using a generic one.(Ñž™œHÈRMAJORZ
-CODE_SMELL

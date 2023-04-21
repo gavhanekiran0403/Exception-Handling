@@ -1,17 +1,0 @@
-
-d	java:S106"9Replace this use of System.out or System.err by a logger.(«Ú£ÑHÓRMAJORZ
-CODE_SMELL
-y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¯ŞHÈRMINORZ
-CODE_SMELL
-i	java:S106"9Replace this use of System.out or System.err by a logger.(¯ŠÏ‡ùÿÿÿÿHÉRMAJORZ
-CODE_SMELL
-i	java:S106"9Replace this use of System.out or System.err by a logger.(ÀäŞåşÿÿÿÿHÔRMAJORZ
-CODE_SMELL
-p
-java:S2147"DCombine this catch with the one at line 15, which has the same body.(ßÈ´HÊRMINORZ
-CODE_SMELL
-p
-java:S2147"DCombine this catch with the one at line 17, which has the same body.(”ı¾HÎRMINORZ
-CODE_SMELL
-d	java:S106"9Replace this use of System.out or System.err by a logger.(Ìş°HÒRMAJORZ
-CODE_SMELL

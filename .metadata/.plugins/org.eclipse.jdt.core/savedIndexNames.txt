@@ -1,6 +1,0 @@
-INDEX VERSION 1.131+E:\Eclipse Exception Handling\.metadata\.plugins\org.eclipse.jdt.core
-1818320769.index
-1769723450.index
-570915288.index
-615231966.index
-1865797976.index
