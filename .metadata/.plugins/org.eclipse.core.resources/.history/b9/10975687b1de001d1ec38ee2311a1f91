@@ -1,0 +1,33 @@
+package com.example.arithmetic.array;
+
+import java.util.Arrays;
+
+public class StringArray {
+	
+	public void convertStringToArray(String string) {
+		
+		
+	}
+
+	private int[] convertStringToIntArray(String s) {
+		
+		char[] chArray = s.toCharArray();
+		
+		char[] charArray = new char[chArray.length];
+		
+		int[] intArray = new int[charArray];
+		
+		for(int) {
+			
+		}
+		return null;
+	}
+	public static void main(String[] args) {
+
+		String string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+		StringArray stringArray = new StringArray();
+		stringArray.convertStringToArray(string);
+	}
+
+}

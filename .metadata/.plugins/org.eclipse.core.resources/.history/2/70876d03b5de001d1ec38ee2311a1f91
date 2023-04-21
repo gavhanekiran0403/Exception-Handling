@@ -1,0 +1,49 @@
+package com.example.arithmetic.array;
+
+public class StringArray {
+	
+	public void convertStringToArray(String string) {
+		
+		try {
+			int[] intArr = convertStringToIntArray(string);
+			
+			System.out.println("IntArray[] is : ");
+			for(int i=0;i<intArr.length;i++) {
+				System.out.print((char)intArr[i]+" ");
+			}
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		try {
+			
+			char[] charArr = string.toCharArray();
+			
+			for(int i=0;i<charArr.length;i++) {
+				System.out.println(charArr[i]);
+			}
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private int[] convertStringToIntArray(String s) {
+		
+		char[] chArray = s.toCharArray();
+		
+		int[] intArray = new int[chArray.length];
+		
+		for(int i=0;i<chArray.length;i++) {
+			intArray[i] = chArray[i];
+		}
+		return intArray;
+	}
+	public static void main(String[] args) {
+
+		String string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+		StringArray stringArray = new StringArray();
+		stringArray.convertStringToArray(string);
+	}
+
+}

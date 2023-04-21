@@ -1,0 +1,31 @@
+package com.example.arithmetic.array;
+
+public class CharArrayToString {
+
+	public void charArrayToString(char[] charArray) {
+		
+		if(charArray !=null) {
+			for(char c : charArray) {
+				System.out.println(c);
+			}
+		}
+		char[] ch = charArray;
+		String str = new String(ch);
+		System.out.println(str);
+		
+		String s = new String(charArray);
+		System.out.println(s);
+		
+		String st = null;
+		System.out.println(st.copyValueOf(charArray));
+	}
+	
+	public static void main(String[] args) {
+		
+		char[] charArray = {};
+		
+		CharArrayToString charArrayToString = new CharArrayToString();
+		
+		charArrayToString.charArrayToString(charArray);
+	}
+}

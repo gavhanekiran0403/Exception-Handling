@@ -1,0 +1,53 @@
+package com.example.exception.trycatch;
+
+public class TryCatchDemo {
+	
+	public void add(int a, int b) {
+		int c = a+b;
+		
+		System.out.println("Addition of a and b : "+c);
+	}
+
+	public void div(Integer a, Integer b) {
+		if(a!=null && b!=null) {
+			try {
+				
+				int c = a/b;
+				
+				System.out.println("Division of a and b : "+c);
+			
+			}catch(NullPointerException e) {
+				e.printStackTrace();
+			}catch(ArithmeticException e) {
+				e.printStackTrace();
+			}catch(Exception e) {
+				e.printStackTrace();
+			}
+		}
+		
+		
+	} 
+	
+	public void multi(int a, int b) {
+		int c = a*b;
+		
+		System.out.println("Multiplication of a and b : "+c);
+	}
+	
+	public static void main(String[] args) {
+
+		TryCatchDemo tryCatchDemo = new TryCatchDemo();
+		
+		tryCatchDemo.add(10,20);
+		
+		try {
+			tryCatchDemo.div(12, (Integer) null);
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		tryCatchDemo.multi(5,2);
+
+	}
+
+}

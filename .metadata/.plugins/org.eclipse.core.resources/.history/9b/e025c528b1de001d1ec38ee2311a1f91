@@ -1,0 +1,25 @@
+package com.example.arithmetic.array;
+
+import java.util.Arrays;
+
+public class StringArray {
+	
+	public void convertStringToArray(String [] strArray) {
+		
+		
+	}
+
+	private int[] convertStringToIntArray() {
+		
+		char[] chArray = Arrays.copyOf(strArray);
+		return null;
+	}
+	public static void main(String[] args) {
+
+		String [] strArray = {"ABCDEFGHIJKLMNOPQRSTUVWXYZ"};
+
+		StringArray stringArray = new StringArray();
+		stringArray.convertStringToArray(strArray);
+	}
+
+}

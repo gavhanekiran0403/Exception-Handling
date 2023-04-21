@@ -1,0 +1,17 @@
+package com.example.string;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		
+		// String declare by String object
+		String string = new String();
+		string = "Java class";
+		System.out.println("Value of string : "+string);
+		
+		// String declare by String literal
+		String name = "Java";
+		System.out.println("Value of string : "+name);
+	}
+
+}

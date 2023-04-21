@@ -1,0 +1,17 @@
+package com.example.arithmetic.array;
+
+public class CharArrayToString {
+
+	public void charArrayToString(char[] charArray) {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		char[] charArray = {'J','A','V','A','C','L','A','S','S'};
+		
+		CharArrayToString charArrayToString = new CharArrayToString();
+		
+		charArrayToString.charArrayToString(charArray);
+	}
+}

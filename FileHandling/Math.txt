@@ -1,0 +1,2 @@
+Division is : 30
+java.lang.ArithmeticException: / by zero

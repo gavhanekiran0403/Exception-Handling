@@ -1,0 +1,12 @@
+package com.example.string;
+
+public class StringConcat {
+
+	public static void main(String[] args) {
+	
+		String name = "Java class";
+		System.out.println(name+" Core java");
+
+	}
+
+}

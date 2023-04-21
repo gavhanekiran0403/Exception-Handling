@@ -1,0 +1,20 @@
+
+i	java:S106
+"9Replace this use of System.out or System.err by a logger.(¾¸ãˆÿÿÿÿÿH RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(þõ÷ôüÿÿÿÿH¡RMAJORZ
+CODE_SMELL
+w
+java:S1858"F"str" is already a string, there's no need to call "toString()" on it.(þõ÷ôüÿÿÿÿH¢RMINORZ
+CODE_SMELL
+`
+java:S2209"5Change this instance-reference to a static reference.(¨òÝVH¦RMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(¨òÝVH¥RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(é±ÀæH©RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¾öæˆýÿÿÿÿHŸRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ë”ØÃþÿÿÿÿH¤RMAJORZ
+CODE_SMELL

@@ -1,0 +1,10 @@
+
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¦îİüÿÿÿÿHRMAJORZ
+CODE_SMELL
+f
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿHšRMAJORZ
+CODE_SMELL
+d	java:S106	"9Replace this use of System.out or System.err by a logger.(Œ²¦ HRMAJORZ
+CODE_SMELL
+k
+java:S3518"CMake sure this expression can't be zero before doing this division.(ŠººÛHœRCRITICALZBUG

@@ -1,0 +1,14 @@
+
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ÀäŞåşÿÿÿÿH¸RMAJORZ
+CODE_SMELL
+p
+java:S2147"DCombine this catch with the one at line 19, which has the same body.(”ı¾H³RMINORZ
+CODE_SMELL
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ÁŞµH±RMINORZ
+CODE_SMELL
+_
+java:S3518"7Make sure "b" can't be zero before doing this division.(ò„¢óH®RCRITICALZBUG
+d	java:S106"9Replace this use of System.out or System.err by a logger.(Ìş°H·RMAJORZ
+CODE_SMELL
+i	java:S106	"9Replace this use of System.out or System.err by a logger.(¯ŠÏ‡ùÿÿÿÿH²RMAJORZ
+CODE_SMELL

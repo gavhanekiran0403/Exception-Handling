@@ -1,0 +1,46 @@
+package com.example.excelFile;
+
+import java.io.*;
+
+import coom.example.writeFile.readFile.Student;
+
+public class BufferWriterDemo {
+	 
+	public void createFile(File file) {
+		
+		BufferedWriter bufferedWriter = null;
+		Student student = new Student("kiran", 101);
+		Student student1 = new Student("Mayur", 102);
+		System.out.println(student);
+		System.out.println(student1);
+		try {
+			file.createNewFile();
+			bufferedWriter = new BufferedWriter(new FileWriter(file,true));
+			try {
+				if(file.length() == 0) {
+					bufferedWriter.write("Student name,Roll no.\n");
+					bufferedWriter.write(student.getName()+",");
+					bufferedWriter.write(student.getRollNo()+"\n");
+				}else {
+					bufferedWriter.write(student.getName()+",");
+					bufferedWriter.write(student.getRollNo()+"\n");
+				}
+			}catch(IOException e) {
+				e.printStackTrace();
+			}
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+	
+		String fileName = "StudentData.csv";
+		File file = new File(fileName);
+		BufferWriterDemo bufferWriterDemo = new BufferWriterDemo();
+		bufferWriterDemo.createFile(file);
+
+	}
+
+}

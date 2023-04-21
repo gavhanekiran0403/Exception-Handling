@@ -1,0 +1,17 @@
+package com.example.arithmetic.array;
+
+public class StringArray {
+	
+	public void convertStringToArray(String [] stringArray) {
+		
+	}
+
+	public static void main(String[] args) {
+
+		String [] stringArray = {"ABCDEFGHIJKLMNOPQRSTUVWXYZ"};
+
+		StringArray stringArray = new StringArray();
+		stringArray.convertStringToArray(stringArray);
+	}
+
+}

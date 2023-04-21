@@ -1,0 +1,12 @@
+
+L
+java:S2129
+" Remove this "String" constructor(â˜Ê”H–RMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(ð¤ƒdH•RMAJORZ
+CODE_SMELL
+a
+java:S2209"5Change this instance-reference to a static reference.(ëŽ¤þH™RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ëŽ¤þH˜RMAJORZ
+CODE_SMELL

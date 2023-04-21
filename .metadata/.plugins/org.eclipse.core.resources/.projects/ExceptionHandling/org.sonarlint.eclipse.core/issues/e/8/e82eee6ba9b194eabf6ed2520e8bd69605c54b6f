@@ -1,0 +1,14 @@
+
+_
+java:S3518"7Make sure "b" can't be zero before doing this division.(ò„¢óH¦RCRITICALZBUG
+t
+java:S2166"CRename this class to remove "Exception" or correct its inheritance.(«×Ç•üÿÿÿÿH©RMAJORZ
+CODE_SMELL
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ÁÞµHªRMINORZ
+CODE_SMELL
+i	java:S106	"9Replace this use of System.out or System.err by a logger.(¯ŠÏ‡ùÿÿÿÿH«RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(Ìþ°ŽH¬RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ÀäÞåþÿÿÿÿH­RMAJORZ
+CODE_SMELL

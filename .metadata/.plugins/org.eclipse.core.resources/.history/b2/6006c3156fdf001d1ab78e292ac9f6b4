@@ -1,0 +1,13 @@
+package com.example.file.handling;
+
+public class StringToStringArray {
+
+	public void convertStringToStringArray() {
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
